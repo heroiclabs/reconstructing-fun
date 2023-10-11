@@ -1,0 +1,314 @@
+{
+    "rarityStatsLadder": {
+        "common": [
+            {
+                "points": 8,
+                "probability": 1
+            },
+            {
+                "points": 10,
+                "probability": 1
+            },
+            {
+                "points": 12,
+                "probability": 1
+            },
+            {
+                "points": 12,
+                "probability": 2
+            },
+            {
+                "points": 14,
+                "probability": 2
+            },
+            {
+                "points": 16,
+                "probability": 2
+            },
+            {
+                "points": 16,
+                "probability": 3
+            },
+            {
+                "points": 18,
+                "probability": 3
+            },
+            {
+                "points": 20,
+                "probability": 3
+            },
+            {
+                "points": 20,
+                "probability": 4
+            },
+            {
+                "points": 20,
+                "probability": 4
+            }
+        ],
+        "rare": [
+            {
+                "points": 15,
+                "probability": 1
+            },
+            {
+                "points": 15,
+                "probability": 2
+            },
+            {
+                "points": 18,
+                "probability": 2
+            },
+            {
+                "points": 21,
+                "probability": 2
+            },
+            {
+                "points": 21,
+                "probability": 3
+            },
+            {
+                "points": 24,
+                "probability": 3
+            },
+            {
+                "points": 27,
+                "probability": 3
+            },
+            {
+                "points": 30,
+                "probability": 3
+            },
+            {
+                "points": 30,
+                "probability": 4
+            },
+            {
+                "points": 35,
+                "probability": 4
+            }
+        ],
+        "epic": [
+            {
+                "points": 5,
+                "probability": 1
+            },
+            {
+                "points": 10,
+                "probability": 1
+            },
+            {
+                "points": 10,
+                "probability": 2
+            },
+            {
+                "points": 15,
+                "probability": 2
+            },
+            {
+                "points": 15,
+                "probability": 3
+            },
+            {
+                "points": 20,
+                "probability": 3
+            },
+            {
+                "points": 25,
+                "probability": 3
+            },
+            {
+                "points": 30,
+                "probability": 3
+            },
+            {
+                "points": 30,
+                "probability": 3
+            },
+            {
+                "points": 35,
+                "probability": 3
+            }
+        ],
+        "legendary": [
+            {
+                "points": 5,
+                "probability": 1
+            },
+            {
+                "points": 10,
+                "probability": 1
+            },
+            {
+                "points": 10,
+                "probability": 2
+            },
+            {
+                "points": 15,
+                "probability": 2
+            },
+            {
+                "points": 15,
+                "probability": 3
+            },
+            {
+                "points": 20,
+                "probability": 3
+            },
+            {
+                "points": 25,
+                "probability": 3
+            },
+            {
+                "points": 30,
+                "probability": 3
+            },
+            {
+                "points": 30,
+                "probability": 3
+            },
+            {
+                "points": 35,
+                "probability": 3
+            }
+        ]
+    },
+    "rarityCardCostsLadder": {
+        "common": [
+            {
+                "cardCount": 1,
+                "coins": 0
+            },
+            {
+                "cardCount": 2,
+                "coins": 50
+            },
+            {
+                "cardCount": 4,
+                "coins": 100
+            },
+            {
+                "cardCount": 10,
+                "coins": 250
+            },
+            {
+                "cardCount": 25,
+                "coins": 750
+            },
+            {
+                "cardCount": 60,
+                "coins": 3000
+            },
+            {
+                "cardCount": 200,
+                "coins": 15000
+            },
+            {
+                "cardCount": 400,
+                "coins": 50000
+            },
+            {
+                "cardCount": 1000,
+                "coins": 150000
+            },
+            {
+                "cardCount": 2000,
+                "coins": 500000
+            },
+            {
+                "cardCount": 4000,
+                "coins": 1000000
+            }
+        ],
+        "rare": [
+            {
+                "cardCount": 1,
+                "coins": 0
+            },
+            {
+                "cardCount": 2,
+                "coins": 250
+            },
+            {
+                "cardCount": 4,
+                "coins": 750
+            },
+            {
+                "cardCount": 10,
+                "coins": 3000
+            },
+            {
+                "cardCount": 25,
+                "coins": 15000
+            },
+            {
+                "cardCount": 60,
+                "coins": 50000
+            },
+            {
+                "cardCount": 200,
+                "coins": 150000
+            },
+            {
+                "cardCount": 400,
+                "coins": 500000
+            },
+            {
+                "cardCount": 1000,
+                "coins": 1000000
+            }
+        ],
+        "epic": [
+            {
+                "cardCount": 1,
+                "coins": 0
+            },
+            {
+                "cardCount": 2,
+                "coins": 750
+            },
+            {
+                "cardCount": 4,
+                "coins": 3000
+            },
+            {
+                "cardCount": 10,
+                "coins": 15000
+            },
+            {
+                "cardCount": 25,
+                "coins": 150000
+            },
+            {
+                "cardCount": 60,
+                "coins": 500000
+            },
+            {
+                "cardCount": 200,
+                "coins": 1500000
+            }
+        ],
+        "legendary": [
+            {
+                "cardCount": 1,
+                "coins": 0
+            },
+            {
+                "cardCount": 2,
+                "coins": 50000
+            },
+            {
+                "cardCount": 4,
+                "coins": 150000
+            },
+            {
+                "cardCount": 10,
+                "coins": 500000
+            },
+            {
+                "cardCount": 25,
+                "coins": 1500000
+            }
+        ]
+    }
+}

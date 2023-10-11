@@ -1,0 +1,140 @@
+{
+    "items": {
+        "card_knightmare": {
+            "name": "Knightmare",
+            "description": "",
+            "category": "cards",
+            "item_sets": [
+                "cards",
+                "cards_common"
+            ],
+            "max_count": 999,
+            "stackable": true,
+            "consumable": false,
+            "consume_reward": null,
+            "string_properties": {
+                "card_rarity": "common"
+            },
+            "numeric_properties": {}
+        },
+        "card_kanon": {
+            "name": "Kanon",
+            "description": "",
+            "category": "cards",
+            "item_sets": [
+                "cards",
+                "cards_common"
+            ],
+            "max_count": 999,
+            "stackable": true,
+            "consumable": false,
+            "consume_reward": null,
+            "string_properties": {
+                "card_rarity": "common"
+            },
+            "numeric_properties": {}
+        },
+        "card_potion": {
+            "name": "Potion",
+            "description": "",
+            "category": "cards",
+            "item_sets": [
+                "cards",
+                "cards_common"
+            ],
+            "max_count": 999,
+            "stackable": true,
+            "consumable": false,
+            "consume_reward": null,
+            "string_properties": {
+                "card_rarity": "common"
+            },
+            "numeric_properties": {}
+        },
+        "card_shuri": {
+            "name": "Shuri",
+            "description": "",
+            "category": "cards",
+            "item_sets": [
+                "cards",
+                "cards_rare"
+            ],
+            "max_count": 999,
+            "stackable": true,
+            "consumable": false,
+            "consume_reward": null,
+            "string_properties": {
+                "card_rarity": "rare"
+            },
+            "numeric_properties": {}
+        },
+        "card_woofy": {
+            "name": "Woofy",
+            "description": "",
+            "category": "cards",
+            "item_sets": [
+                "cards",
+                "cards_rare"
+            ],
+            "max_count": 999,
+            "stackable": true,
+            "consumable": false,
+            "consume_reward": null,
+            "string_properties": {
+                "card_rarity": "rare"
+            },
+            "numeric_properties": {}
+        },
+        "card_tulkit": {
+            "name": "Tulkit",
+            "description": "",
+            "category": "cards",
+            "item_sets": [
+                "cards",
+                "cards_epic"
+            ],
+            "max_count": 999,
+            "stackable": true,
+            "consumable": false,
+            "consume_reward": null,
+            "string_properties": {
+                "card_rarity": "epic"
+            },
+            "numeric_properties": {}
+        },
+        "card_charja": {
+            "name": "Charja",
+            "description": "",
+            "category": "cards",
+            "item_sets": [
+                "cards",
+                "cards_epic"
+            ],
+            "max_count": 999,
+            "stackable": true,
+            "consumable": false,
+            "consume_reward": null,
+            "string_properties": {
+                "card_rarity": "epic"
+            },
+            "numeric_properties": {}
+        },
+        "card_nox": {
+            "name": "Nox",
+            "description": "",
+            "category": "cards",
+            "item_sets": [
+                "cards",
+                "cards_legendary"
+            ],
+            "max_count": 999,
+            "stackable": true,
+            "consumable": false,
+            "consume_reward": null,
+            "string_properties": {
+                "card_rarity": "legendary"
+            },
+            "numeric_properties": {}
+        }
+    }
+}
