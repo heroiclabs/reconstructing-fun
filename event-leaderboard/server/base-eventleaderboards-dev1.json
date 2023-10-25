@@ -1,0 +1,203 @@
+{
+  "event_leaderboards": {
+    "kings_cup": {
+      "name": "Kings Cup",
+      "description": "Take the Crown!",
+      "category": "Weekly",
+      "ascending": false,
+      "operator": "incr",
+      "reset_schedule": "*/5 * * * *",
+      "cohort_size": 50,
+      "max_num_score": 0,
+      "tiers": 1,
+      "max_idle_tier_drop": 0,
+      "reward_tiers": {
+        "0": [
+          {
+            "name": "gold",
+            "tier_change": 0,
+            "rank_min": 1,
+            "rank_max": 1,
+            "reward": {
+              "guaranteed": {
+                "energy_modifiers": [{
+                  "id": "lives",
+                  "operator": "infinite",
+                  "value": {
+                    "min": 0
+                  },
+                  "duration_sec": {
+                    "min": 10800
+                  }
+                }],
+                "item_sets": [{
+                  "set": ["cards_legendary"],
+                  "count": {
+                    "min": 1
+                  },
+                  "max_repeats": 1
+                }],
+                "items": {
+                  "powerup_hammer": {
+                    "min": 1
+                  },
+                  "powerup_arrow": {
+                    "min": 1
+                  },
+                  "powerup_cannon": {
+                    "min": 1
+                  },
+                  "powerup_jester_hat": {
+                    "min": 1
+                  },
+                  "powerup_light_ball": {
+                    "min": 3
+                  },
+                  "powerup_tnt": {
+                    "min": 3
+                  },
+                  "powerup_rocket": {
+                    "min": 3
+                  }
+                }
+              }
+            }
+          },
+          {
+            "name": "silver",
+            "tier_change": 0,
+            "rank_min": 2,
+            "rank_max": 2,
+            "reward": {
+              "guaranteed": {
+                "energy_modifiers": [{
+                  "id": "lives",
+                  "operator": "infinite",
+                  "value": {
+                    "min": 0
+                  },
+                  "duration_sec": {
+                    "min": 7200
+                  }
+                }],
+                "item_sets": [{
+                  "set": ["cards"],
+                  "count": {
+                    "min": 4
+                  },
+                  "max_repeats": 4
+                }],
+                "items": {
+                  "powerup_hammer": {
+                    "min": 1
+                  },
+                  "powerup_jester_hat": {
+                    "min": 1
+                  },
+                  "powerup_light_ball": {
+                    "min": 2
+                  },
+                  "powerup_tnt": {
+                    "min": 2
+                  },
+                  "powerup_rocket": {
+                    "min": 2
+                  }
+                }
+              }
+            }
+          },
+          {
+            "name": "bronze",
+            "tier_change": 0,
+            "rank_min": 3,
+            "rank_max": 3,
+            "reward": {
+              "guaranteed": {
+                "energy_modifiers": [{
+                  "id": "lives",
+                  "operator": "infinite",
+                  "value": {
+                    "min": 0
+                  },
+                  "duration_sec": {
+                    "min": 3600
+                  }
+                }],
+                "item_sets": [{
+                  "set": ["cards"],
+                  "count": {
+                    "min": 2
+                  },
+                  "max_repeats": 2
+                }],
+                "items": {
+                  "powerup_light_ball": {
+                    "min": 2
+                  },
+                  "powerup_tnt": {
+                    "min": 2
+                  },
+                  "powerup_rocket": {
+                    "min": 2
+                  }
+                }
+              }
+            }
+          },
+          {
+            "name": "standard",
+            "tier_change": 0,
+            "rank_min": 4,
+            "rank_max": 10,
+            "reward": {
+              "guaranteed": {
+                "currencies": {
+                  "tokens": {
+                    "min": 10
+                  }
+                },
+                "items": {
+                  "powerup_hammer": {
+                    "min": 1
+                  },
+                  "powerup_arrow": {
+                    "min": 1
+                  },
+                  "powerup_cannon": {
+                    "min": 1
+                  },
+                  "powerup_jester_hat": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "name": "participation",
+            "tier_change": 0,
+            "rank_min": 11,
+            "rank_max": 50,
+            "reward": {
+              "guaranteed": {
+                "currencies": {
+                  "coins": {
+                    "min": 100
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "change_zones": {},
+      "start_time_sec": 0,
+      "end_time_sec": 0,
+      "duration": 300,
+      "additional_properties": {
+        "some_value": "some_property"
+      }
+    }
+  }
+}
