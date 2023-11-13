@@ -1,0 +1,20 @@
+{
+    "initialize_user": {
+        "currencies": {
+            "coins": 0,
+            "gems": 0,
+            "tokens": 0
+        },
+        "items": {
+            "card_knightmare": 99999,
+            "card_kanon": 50,
+            "card_potion": 99,
+            "card_shuri": 21,
+            "card_woofy": 9,
+            "card_tulkit": 5,
+            "card_charja": 17,
+            "card_nox": 5
+        }
+    },
+    "store_items": {}
+}

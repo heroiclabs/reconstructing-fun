@@ -1,0 +1,185 @@
+{
+  "achievements": {
+      "first_victory": {
+          "name": "First Victory",
+          "description": "Win your first game.",
+          "category": "once",
+          "count": 0,
+          "max_count": 1,
+          "reward": {
+              "guaranteed": {
+                  "currencies": {
+                      "coins": {
+                          "min": 1000
+                      }
+                  }
+              }
+          },
+          "additional_properties":  {
+              "icon_name": "wins"
+          }
+      },
+      "apple_link": {
+          "name": "Apple Link",
+          "description": "Link an Apple ID to your account.",
+          "category": "once",
+          "count": 0,
+          "max_count": 1,
+          "reward": {
+              "guaranteed": {
+                  "items": {
+                      "special_card_back": {
+                          "min": 1
+                      }
+                  }
+              }
+          },
+          "additional_properties":  {
+              "icon_name": "count"
+          }
+      },
+      "daily_login": {
+          "name": "Daily Login",
+          "description": "Login for the first time today.",
+          "category": "daily",
+          "count": 0,
+          "max_count": 1,
+          "reset_cronexpr": "0 0 * * *",
+          "reward": {
+              "guaranteed": {
+                  "currencies": {
+                      "coins": {
+                          "min": 100
+                      }
+                  }
+              }
+          },
+          "additional_properties":  {
+              "icon_name": "count"
+          }
+      },
+      "deal_10_damage": {
+          "name": "Deal 10 Damage",
+          "description": "Deal 10 damage to an opponent in a single match.",
+          "category": "daily",
+          "count": 0,
+          "max_count": 10,
+          "reset_cronexpr": "0 0 * * *",
+          "reward": {
+              "guaranteed": {
+                  "currencies": {
+                      "gems": {
+                          "min": 5
+                      }
+                  }
+              }
+          },
+          "additional_properties":  {
+              "icon_name": "damage"
+          }
+      },
+      "play_1_game": {
+          "name": "Play 1 Game",
+          "description": "Play 1 game.",
+          "category": "daily",
+          "count": 0,
+          "max_count": 1,
+          "reset_cronexpr": "0 0 * * *",
+          "reward": {
+              "guaranteed": {
+                  "currencies": {
+                      "gems": {
+                          "min": 1
+                      }
+                  }
+              }
+          },
+          "additional_properties":  {
+              "icon_name": "wins"
+          }
+      },
+      "spend_100_mana": {
+          "name": "Spend 100 Mana",
+          "description": "Spend 100 mana.",
+          "category": "daily",
+          "count": 0,
+          "max_count": 100,
+          "reset_cronexpr": "0 0 * * *",
+          "reward": {
+              "guaranteed": {
+                  "currencies": {
+                      "coins": {
+                          "min": 50
+                      }
+                  }
+              }
+          },
+          "additional_properties":  {
+              "icon_name": "mana"
+          }
+      },
+      "play_5_games": {
+          "name": "Play 5 Games",
+          "description": "Play 5 games.",
+          "category": "weekly",
+          "count": 0,
+          "max_count": 5,
+          "reset_cronexpr": "0 0 * * 1",
+          "reward": {
+              "guaranteed": {
+                  "currencies": {
+                      "gems": {
+                          "min": 10
+                      }
+                  }
+              }
+          },
+          "additional_properties":  {
+              "icon_name": "wins"
+          }
+      },
+      "win_10_games": {
+          "name": "Win 10 Games",
+          "description": "Win 10 games in Ranked Play.",
+          "category": "weekly",
+          "count": 0,
+          "max_count": 10,
+          "reset_cronexpr": "0 0 * * 1",
+          "reward": {
+              "guaranteed": {
+                  "currencies": {
+                      "gems": {
+                          "min": 100
+                      }
+                  }
+              }
+          },
+          "additional_properties":  {
+              "icon_name": "skull"
+          }
+      },
+      "spend_500_mana": {
+          "name": "Spend 500 Mana",
+          "description": "Spend 500 mana.",
+          "category": "weekly",
+          "count": 0,
+          "max_count": 500,
+          "reset_cronexpr": "0 0 * * 1",
+          "reward": {
+              "guaranteed": {
+                  "currencies": {
+                      "coins": {
+                          "min": 100
+                      },
+                      "gems": {
+                          "min": 50
+                      }
+                  }
+              }
+          },
+          "additional_properties":  {
+              "icon_name": "mana"
+          }
+      }
+  }
+}

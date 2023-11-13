@@ -17,6 +17,7 @@ In this series, we dive deep into the mechanics of popular games and show you ho
 
 - [Collectible Card System (Clash Royale Style)](collectible-cards/README.md)
 - [Event Leaderboard System (Royal Match King's Cup Style)](event-leaderboard/README.md)
+- [Quest System (Hearthstone Style)](quests/README.md)
 
 ### Setup and Installation
 
