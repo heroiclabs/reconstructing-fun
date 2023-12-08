@@ -1,0 +1,182 @@
+{
+  "initialize_user": {
+      "currencies": {
+          "coins": 10000,
+          "gems": 1000,
+          "tokens": 0
+      },
+      "items": {}
+  },
+  "store_items": {
+      "cosmetic_skin_biohazard": {
+          "name": "Biohazard Skin",
+          "category": "cosmetics",
+          "cost": {
+              "currencies": {
+                  "gems": 499
+              }
+          },
+          "reward": {
+              "guaranteed": {
+                  "items": {
+                      "cosmetic_skin_biohazard": {
+                          "min": 1
+                      }
+                  }
+              }
+          }
+      },
+      "cosmetic_skin_wolf": {
+          "name": "Wolf Skin",
+          "category": "cosmetics",
+          "cost": {
+              "currencies": {
+                  "gems": 299
+              }
+          },
+          "reward": {
+              "guaranteed": {
+                  "items": {
+                      "cosmetic_skin_wolf": {
+                          "min": 1
+                      }
+                  }
+              }
+          }
+      },
+      "cosmetic_skin_robot": {
+          "name": "Robot Skin",
+          "category": "cosmetics",
+          "cost": {
+              "currencies": {
+                  "gems": 299
+              }
+          },
+          "reward": {
+              "guaranteed": {
+                  "items": {
+                      "cosmetic_skin_robot": {
+                          "min": 1
+                      }
+                  }
+              }
+          }
+      },
+      "cosmetic_skin_rockstar": {
+          "name": "Rockstar Skin",
+          "category": "cosmetics",
+          "cost": {
+              "currencies": {
+                  "coins": 999
+              }
+          },
+          "reward": {
+              "guaranteed": {
+                  "items": {
+                      "cosmetic_skin_rockstar": {
+                          "min": 1
+                      }
+                  }
+              }
+          }
+      },
+      "lucky_chest": {
+          "name": "Lucky Chest",
+          "category": "chests",
+          "cost": {
+              "currencies": {
+                  "gems": 199
+              }
+          },
+          "reward": {
+              "weighted": [
+                  {
+                      "items": {
+                          "cosmetic_skin_rockstar": {
+                              "min": 1
+                          }
+                      },
+                      "currencies": {
+                          "coins": {
+                              "min": 1000,
+                              "max": 2000,
+                              "multiple": 100
+                          }
+                      },
+                      "weight": 1
+                  },
+                  {
+                      "currencies": {
+                          "coins": {
+                              "min": 20000,
+                              "max": 30000,
+                              "multiple": 1000
+                          }
+                      },
+                      "weight": 9
+                  }
+              ],
+              "total_weight": 10,
+              "max_rolls": 1
+          }
+      },
+      "epic_chest": {
+          "name": "Epic Chest",
+          "category": "chests",
+          "cost": {
+              "currencies": {
+                  "gems": 499
+              }
+          },
+          "reward": {
+              "weighted": [
+                  {
+                      "items": {
+                          "cosmetic_skin_biohazard": {
+                              "min": 1
+                          }
+                      },
+                      "currencies": {
+                          "coins": {
+                              "min": 10000,
+                              "max": 20000,
+                              "multiple": 1000
+                          }
+                      },
+                      "weight": 2
+                  },
+                  {
+                      "items": {
+                          "cosmetic_skin_rockstar": {
+                              "min": 1
+                          },
+                          "cosmetic_skin_wolf": {
+                              "min": 1
+                          }
+                      },
+                      "currencies": {
+                          "coins": {
+                              "min": 1000,
+                              "max": 2000,
+                              "multiple": 100
+                          }
+                      },
+                      "weight": 4
+                  },
+                  {
+                      "currencies": {
+                          "coins": {
+                              "min": 50000,
+                              "max": 100000,
+                              "multiple": 1000
+                          }
+                      },
+                      "weight": 4
+                  }
+              ],
+              "total_weight": 10,
+              "max_rolls": 1
+          }
+      }
+  }
+}

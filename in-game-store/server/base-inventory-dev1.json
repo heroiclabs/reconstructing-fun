@@ -1,0 +1,28 @@
+{
+  "items": {
+      "cosmetic_skin_biohazard": {
+          "name": "Biohazard Skin",
+          "category": "cosmetics",
+          "item_sets": ["cosmetics_skins"],
+          "max_count": 1
+      },
+      "cosmetic_skin_wolf": {
+          "name": "Wolf Skin",
+          "category": "cosmetics",
+          "item_sets": ["cosmetics_skins"],
+          "max_count": 1
+      },
+      "cosmetic_skin_robot": {
+          "name": "Robot Skin",
+          "category": "cosmetics",
+          "item_sets": ["cosmetics_skins"],
+          "max_count": 1
+      },
+      "cosmetic_skin_rockstar": {
+          "name": "Rockstar Skin",
+          "category": "cosmetics",
+          "item_sets": ["cosmetics_skins"],
+          "max_count": 1
+      }
+  }
+}
