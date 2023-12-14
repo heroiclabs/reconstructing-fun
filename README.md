@@ -19,6 +19,7 @@ In this series, we dive deep into the mechanics of popular games and show you ho
 - [Event Leaderboard System (Royal Match King's Cup Style)](event-leaderboard/README.md)
 - [Quest System (Hearthstone Style)](quests/README.md)
 - [In-Game Store System (Fall Guys Style)](in-game-store/README.md)
+- [Solo Live Event System (Fortnite Style)](solo-live-event/README.md)
 
 ### Setup and Installation
 

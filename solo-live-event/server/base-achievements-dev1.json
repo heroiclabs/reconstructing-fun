@@ -1,0 +1,118 @@
+{
+  "achievements": {
+      "super_adventure_event": {
+          "name": "Super Adventure!",
+          "description": "Earn points by completing levels to unlock each stage of the event and earn awesome rewards!",
+          "auto_claim": true,
+          "auto_reset": false,
+          "category": "super_adventure_event",
+          "count": 0,
+          "duration_sec": 432000,
+          "max_count": 1,
+          "precondition_ids": ["super_adventure_event_stage_5"],
+          "reset_cronexpr": "0 0 * * 1",
+          "reward": {},
+          "sub_achievements": {
+              "super_adventure_event_stage_1": {
+                  "name": "Stage 1",
+                  "description": "Earn 1,000 points.",
+                  "auto_claim": false,
+                  "auto_reset": false,
+                  "category": "super_adventure_event",
+                  "duration_sec": 432000,
+                  "max_count": 1000,
+                  "reset_cronexpr": "0 0 * * 1",
+                  "reward": {
+                      "guaranteed": {
+                          "currencies": {
+                              "coins": {
+                                  "min": 100
+                              }
+                          }
+                      }
+                  }
+              },
+              "super_adventure_event_stage_2": {
+                  "name": "Stage 2",
+                  "description": "Earn 5,000 points.",
+                  "auto_claim": false,
+                  "auto_reset": false,
+                  "category": "super_adventure_event",
+                  "duration_sec": 432000,
+                  "max_count": 5000,
+                  "reset_cronexpr": "0 0 * * 1",
+                  "precondition_ids": ["super_adventure_event_stage_1"],
+                  "reward": {
+                      "guaranteed": {
+                          "currencies": {
+                              "gems": {
+                                  "min": 10
+                              }
+                          }
+                      }
+                  }
+              },
+              "super_adventure_event_stage_3": {
+                  "name": "Stage 3",
+                  "description": "Earn 10,000 points.",
+                  "auto_claim": false,
+                  "auto_reset": false,
+                  "category": "super_adventure_event",
+                  "duration_sec": 432000,
+                  "max_count": 10000,
+                  "reset_cronexpr": "0 0 * * 1",
+                  "precondition_ids": ["super_adventure_event_stage_2"],
+                  "reward": {
+                      "guaranteed": {
+                          "currencies": {
+                              "coins": {
+                                  "min": 10000
+                              }
+                          }
+                      }
+                  }
+              },
+              "super_adventure_event_stage_4": {
+                  "name": "Stage 4",
+                  "description": "Earn 50,000 points.",
+                  "auto_claim": false,
+                  "auto_reset": false,
+                  "category": "super_adventure_event",
+                  "duration_sec": 432000,
+                  "max_count": 50000,
+                  "reset_cronexpr": "0 0 * * 1",
+                  "precondition_ids": ["super_adventure_event_stage_3"],
+                  "reward": {
+                      "guaranteed": {
+                          "currencies": {
+                              "gems": {
+                                  "min": 100
+                              }
+                          }
+                      }
+                  }
+              },
+              "super_adventure_event_stage_5": {
+                  "name": "Stage 5",
+                  "description": "Earn 100,000 points.",
+                  "auto_claim": false,
+                  "auto_reset": false,
+                  "category": "super_adventure_event",
+                  "duration_sec": 432000,
+                  "max_count": 100000,
+                  "reset_cronexpr": "0 0 * * 1",
+                  "precondition_ids": ["super_adventure_event_stage_4"],
+                  "reward": {
+                      "guaranteed": {
+                          "currencies": {
+                              "coins": {
+                                  "min": 100000
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
