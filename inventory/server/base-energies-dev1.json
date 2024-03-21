@@ -1,0 +1,18 @@
+{
+  "energies": {
+      "health": {
+          "implicit": true,
+          "max_count": 100,
+          "refill_count": 1,
+          "refill_time_sec": 60,
+          "start_count": 100
+      },
+      "mana": {
+          "implicit": true,
+          "max_count": 100,
+          "refill_count": 1,
+          "refill_time_sec": 60,
+          "start_count": 100
+      }
+  }
+}

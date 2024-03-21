@@ -1,0 +1,23 @@
+{
+  "initialize_user": {
+      "currencies": {
+          "coins": 10000,
+          "gems": 1000,
+          "tokens": 0
+      },
+      "items": {
+          "sharp_claw": 27,
+          "oyster": 9,
+          "bolt": 104,
+          "mysterious_egg": 5,
+          "iron_sword": 1,
+          "bomb": 3,
+          "health_potion": 10,
+          "mana_potion": 10,
+          "revive_potion": 1,
+          "hunk_of_meat": 7,
+          "mystery_chest": 2
+      }
+  },
+  "store_items": {}
+}

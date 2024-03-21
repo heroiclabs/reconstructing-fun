@@ -1,0 +1,235 @@
+{
+  "items": {
+    "sharp_claw": {
+      "name": "Sharp Claw",
+      "category": "materials",
+      "item_sets": [
+        "materials"
+      ],
+      "stackable": true,
+      "max_count": 255,
+      "string_properties": {
+        "rarity": "common"
+      }
+    },
+    "oyster": {
+      "name": "Oyster",
+      "description": "A small oyster.",
+      "category": "materials",
+      "item_sets": [
+        "materials"
+      ],
+      "stackable": true,
+      "max_count": 255,
+      "string_properties": {
+        "rarity": "common"
+      }
+    },
+    "bolt": {
+      "name": "Bolt",
+      "description": "A small bolt.",
+      "category": "materials",
+      "item_sets": [
+        "materials"
+      ],
+      "stackable": true,
+      "max_count": 255,
+      "string_properties": {
+        "rarity": "rare"
+      }
+    },
+    "mysterious_egg": {
+      "name": "Mysterious Egg",
+      "description": "A mysterious egg. I wonder what's inside?",
+      "category": "materials",
+      "item_sets": [
+        "materials"
+      ],
+      "stackable": true,
+      "max_count": 255,
+      "string_properties": {
+        "rarity": "legendary"
+      }
+    },
+    "iron_sword": {
+      "name": "Iron Sword",
+      "description": "A basic iron sword.",
+      "category": "weapons",
+      "item_sets": [
+        "weapons"
+      ],
+      "stackable": false,
+      "max_count": 1,
+      "string_properties": {
+        "rarity": "common"
+      },
+      "numeric_properties": {
+        "attack": 10,
+        "attack_speed": 1.5
+      }
+    },
+    "bomb": {
+      "name": "Bomb",
+      "description": "A bomb. Kaboom!",
+      "category": "weapons",
+      "item_sets": [
+        "weapons"
+      ],
+      "stackable": true,
+      "max_count": 255,
+      "string_properties": {
+        "rarity": "common"
+      }
+    },
+    "health_potion": {
+      "name": "Health Potion",
+      "description": "A potion that heals 50 health points.",
+      "category": "consumables",
+      "item_sets": [
+        "consumables"
+      ],
+      "consumable": true,
+      "stackable": true,
+      "max_count": 255,
+      "consume_reward": {
+        "guaranteed": {
+          "energies": {
+            "health": {
+              "min": 50
+            }
+          }
+        }
+      },
+      "string_properties": {
+        "rarity": "common"
+      },
+      "numeric_properties": {
+        "health": 50
+      }
+    },
+    "mana_potion": {
+      "name": "Mana Potion",
+      "description": "A potion that restores 50 mana points.",
+      "category": "consumables",
+      "item_sets": [
+        "consumables"
+      ],
+      "consumable": true,
+      "stackable": true,
+      "max_count": 255,
+      "consume_reward": {
+        "guaranteed": {
+          "energies": {
+            "mana": {
+              "min": 50
+            }
+          }
+        }
+      },
+      "string_properties": {
+        "rarity": "common"
+      },
+      "numeric_properties": {
+        "mana": 50
+      }
+    },
+    "revive_potion": {
+      "name": "Revive Potion",
+      "description": "A potion that revives a fallen ally.",
+      "category": "consumables",
+      "item_sets": [
+        "consumables"
+      ],
+      "stackable": true,
+      "max_count": 255,
+      "numeric_properties": {},
+      "string_properties": {
+        "rarity": "rare"
+      }
+    },
+    "hunk_of_meat": {
+      "name": "Hunk of Meat",
+      "description": "A hunk of meat. It looks delicious.",
+      "category": "consumables",
+      "item_sets": [
+        "consumables"
+      ],
+      "consumable": true,
+      "stackable": true,
+      "max_count": 255,
+      "consume_reward": {
+        "guaranteed": {
+          "energies": {
+            "health": {
+              "min": 25
+            }
+          }
+        }
+      },
+      "string_properties": {
+        "rarity": "common"
+      },
+      "numeric_properties": {
+        "health": 25
+      }
+    },
+    "mystery_chest": {
+      "name": "Mystery Chest",
+      "description": "A mysterious chest. I wonder what's inside?",
+      "category": "consumables",
+      "item_sets": [
+        "consumables"
+      ],
+      "consumable": true,
+      "stackable": true,
+      "max_count": 255,
+      "consume_reward": {
+        "weighted": [
+          {
+            "items": {
+              "health_potion": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            "currencies": {
+              "coins": {
+                "min": 10,
+                "max": 50
+              }
+            },
+            "weight": 2
+          },
+          {
+            "items": {
+              "mana_potion": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            "currencies": {
+              "coins": {
+                "min": 10,
+                "max": 50
+              }
+            },
+            "weight": 2
+          },
+          {
+            "items": {
+              "iron_sword": {
+                "min": 1
+              }
+            },
+            "weight": 1
+          }
+        ],
+        "max_rolls": 1
+      },
+      "string_properties": {
+        "rarity": "rare"
+      },
+      "numeric_properties": {}
+    }
+  }
+}

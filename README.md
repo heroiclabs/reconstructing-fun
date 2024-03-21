@@ -20,6 +20,7 @@ In this series, we dive deep into the mechanics of popular games and show you ho
 - [Quest System (Hearthstone Style)](quests/README.md)
 - [In-Game Store System (Fall Guys Style)](in-game-store/README.md)
 - [Solo Live Event System (Fortnite Style)](solo-live-event/README.md)
+- [Inventory System (RPG Style)](inventory/README.md)
 
 ### Setup and Installation
 
